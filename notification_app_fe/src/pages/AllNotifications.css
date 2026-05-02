@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #334155
+  );
+}
+
+
+.page {
+
+  min-height: 100vh;
+
+  padding: 40px;
+
+  color: white;
+}
+
+
+h1 {
+
+  text-align: center;
+
+  font-size: 40px;
+
+  margin-bottom: 10px;
+}
+
+
+.stats {
+
+  text-align: center;
+
+  color: lightgray;
+
+  margin-bottom: 40px;
+}
+
+
+
+.filters {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+}
+
+
+.filters button {
+
+  padding: 12px 24px;
+
+  border-radius: 30px;
+
+  border: none;
+
+  cursor: pointer;
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
+
+  color: white;
+
+  transition: 0.3s;
+}
+
+
+.filters button:hover {
+
+  transform: scale(1.08);
+}
+
+
+.active {
+
+  background: #3b82f6 !important;
+}
+
+
+
+
+.card {
+
+  max-width: 900px;
+
+  margin: auto;
+
+  margin-bottom: 25px;
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  background: rgba(
+    255,
+    255,
+    255,
+    0.08
+  );
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 8px 32px rgba(
+      0,
+      0,
+      0,
+      0.35
+    );
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+.card:hover {
+
+  transform:
+    translateY(-6px);
+}
+
+
+
+.viewed {
+
+  opacity: 0.45;
+}
+
+
+
+.badge {
+
+  display: inline-block;
+
+  padding: 8px 18px;
+
+  border-radius: 30px;
+
+  background: #2563eb;
+
+  margin-bottom: 15px;
+
+  font-size: 14px;
+}
